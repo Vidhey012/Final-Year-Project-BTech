@@ -1,0 +1,49 @@
+Chatbot Documentation
+The Chatbot leverages Python, Tensorflow, and Natural Language Processing (NLP) techniques. It is built using TFLearn as the learning engine. The system is versatile, supporting multiple interaction interfaces and allowing users to train custom data models tailored to specific business needs.
+
+Features
+- Multiple Interaction Interfaces: The chatbot supports various methods of interaction:
+- Web interface
+- REST API
+- GUI
+- CLI
+
+NOTE: Custom Data Model Training: Users can train the chatbot with custom data models that are simple to format and integrate.
+
+For Installation
+Dependencies: Ensure Python and Tensorflow are installed. For Tensorflow installation, follow the instructions provided on the official Tensorflow website.
+
+For Setup
+1) Data Model Preparation: Locate the content.json file in the /Bot/ directory. Modify the content according to your requirements.
+2) Model Training: Navigate to the /Bot/ directory.
+3) Execute the train.py file to train your model.
+
+
+For Web Interface
+Framework: Django
+
+Setup:
+1) Install Django using the official installation guide.
+2) Locate the settings.py file in the /Chatbot/ directory.
+3) Modify line 96 to adjust the STATICFILES_DIRS path to your project's static folder.
+4) Run the server using python manage.py runserver.
+
+For REST API
+Setup: Requires Django framework.
+
+Usage:
+Endpoint: http://127.0.0.1:8000/api
+Method: POST
+Payload: {"msg": "What is your name"}
+Response: {"ques": "What is your name", "res": "I'm Bot", "time": "2024-04 10:07:32"}
+
+GUI
+Tool Required: Pygubu (a RAD tool for developing Tkinter-based user interfaces).
+Setup:
+Download and extract Pygubu.
+Install Pygubu using python setup.py install.
+Execute ChatView.py in the /UI directory.
+
+CLI
+Usage:
+Locate and execute cli.py in the /CLI directory.
