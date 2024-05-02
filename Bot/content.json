@@ -1,0 +1,243 @@
+{
+        "intents": [
+          {
+            "tag": "1",
+            "patterns": [
+              "Hi",
+              "Is anyone there?",
+              "Hello"
+            ],
+            "responses": [
+              "Hi",
+              "Hello",
+              "Hi there, how can I help?"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "2",
+            "patterns": [
+              "Who are you",
+              "What is you name",
+              "Do you have a name"
+            ],
+            "responses": [
+              "Hi, I'm JBot",
+              "My name is JBot",
+              "I'm JBot"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "5",
+            "patterns": [
+              "How is the weather today"
+            ],
+            "responses": [
+              "It's sunny day"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "6",
+            "patterns": [
+              "What events are available today"
+            ],
+            "responses": [
+              "Live in concent will be at UOM JJ hall"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "7",
+            "patterns": [
+              "How are you",
+              "What's up"
+            ],
+            "responses": [
+              "I'm fine, Thanks for asking.",
+              "I'm doing well",
+              "I'm fine. And you ?"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "8",
+            "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye"
+            ],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "9",
+            "patterns": [
+              "Thank you"
+            ],
+            "responses": [
+              "You are welcome"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "result_portal",
+            "patterns": [
+              "What is results portal?",
+              "Explain results portal.",
+              "How does results portal work?"
+            ],
+            "responses": [
+              "A results portal is an online platform where students can check their exam results on the university's website by entering their hall ticket or registration number.",
+              "The results portal is a section on the university's website allowing students to access their exam results using their hall ticket or registration number.",
+              "Results portal is an online tool provided by universities for students to view their exam results conveniently by logging in with their hall ticket or registration number."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "result_portal",
+            "patterns": [
+              "Where can I find my exam results?",
+              "How can I check my semester results?",
+              "Can you guide me on accessing my exam marks?"
+            ],
+            "responses": [
+              "Your exam results can be found on the university's results portal accessible through their official website.",
+              "To check your semester results, you need to visit the university's results portal and enter your hall ticket or registration number.",
+              "Sure! You can access your exam marks by visiting the university's results portal and logging in with your hall ticket or registration number."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "placement_cell",
+            "patterns": [
+              "What is the placement cell?",
+              "Tell me about the placement cell.",
+              "Can you explain the role of the placement cell?"
+            ],
+            "responses": [
+              "The placement cell is a department within the university responsible for facilitating employment opportunities for students.",
+              "Placement cell is a dedicated unit in the university focused on helping students secure job placements by organizing recruitment drives and providing career guidance.",
+              "The placement cell plays a crucial role in connecting students with potential employers, arranging internships, and offering career counseling services."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "placement_cell",
+            "patterns": [
+              "How does the placement cell assist students in finding jobs?",
+              "What services does the placement cell offer to students?",
+              "Can you provide information on the activities organized by the placement cell?"
+            ],
+            "responses": [
+              "The placement cell assists students in finding jobs by organizing campus recruitment drives, providing career counseling, resume building workshops, and facilitating internships.",
+              "The placement cell offers various services to students, including organizing job fairs, inviting companies for campus placements, conducting mock interviews, and offering personality development programs.",
+              "Activities organized by the placement cell include arranging industry visits, conducting skill development sessions, hosting guest lectures by industry professionals, and providing networking opportunities for students."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "nss",
+            "patterns": [
+              "What is NSS?",
+              "Tell me about NSS.",
+              "Can you explain the purpose of NSS?"
+            ],
+            "responses": [
+              "NSS stands for National Service Scheme, which is a voluntary organization established to promote social welfare and community service among students.",
+              "NSS is a student-centered program aimed at developing the personality and character of students through community service activities and social outreach programs.",
+              "The purpose of NSS is to instill a sense of social responsibility, leadership, and citizenship among students by engaging them in various community development initiatives and service projects."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "anti_ragging_cell",
+            "patterns": [
+              "What is the anti-ragging cell?",
+              "Tell me about the anti-ragging cell.",
+              "Can you explain the role of the anti-ragging cell?"
+            ],
+            "responses": [
+              "The anti-ragging cell is a regulatory body established to prevent and address incidents of ragging in educational institutions.",
+              "Anti-ragging cell is a committee formed to ensure a safe and conducive environment for students by strictly enforcing anti-ragging policies and regulations.",
+              "The role of the anti-ragging cell is to create awareness about the harmful effects of ragging, handle complaints related to ragging incidents, and take necessary disciplinary actions against perpetrators."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "jntuk_moocs",
+            "patterns": [
+              "What are JNTUK MOOCs?",
+              "Can you tell me about JNTUK MOOCs?",
+              "Explain the concept of JNTUK MOOCs."
+            ],
+            "responses": [
+              "JNTUK MOOCs refer to Massive Open Online Courses offered by Jawaharlal Nehru Technological University, Kakinada, which are open to a large number of learners worldwide.",
+              "JNTUK MOOCs are online courses provided by Jawaharlal Nehru Technological University, Kakinada, allowing learners to access high-quality educational content across various disciplines.",
+              "The concept of JNTUK MOOCs involves delivering educational courses through online platforms, enabling learners to study at their own pace and convenience."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "jntuk_daa",
+            "patterns": [
+              "What is JNTUK-DAA?",
+              "Tell me about JNTUK-DAA.",
+              "Can you explain the concept of JNTUK-DAA?"
+            ],
+            "responses": [
+              "JNTUK-DAA stands for Jawaharlal Nehru Technological University, Kakinada - Directorate of Academic Audit.",
+              "JNTUK-DAA is the Directorate of Academic Audit at Jawaharlal Nehru Technological University, Kakinada, responsible for ensuring academic quality and compliance.",
+              "The concept of JNTUK-DAA involves overseeing academic audit processes, ensuring adherence to academic standards, and maintaining quality assurance across the university and its constituent/affiliated colleges."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "research_and_development_cell",
+            "patterns": [
+              "What is the Research and Development (R&D) Cell?",
+              "Tell me about the Research and Development (R&D) Cell.",
+              "Can you explain the role of the Research and Development (R&D) Cell?"
+            ],
+            "responses": [
+              "The Research and Development (R&D) Cell is a department within the university focused on fostering research activities and innovation.",
+              "The Research and Development (R&D) Cell is responsible for promoting and supporting research initiatives, fostering collaboration with industry and academia, and facilitating technology transfer.",
+              "The role of the Research and Development (R&D) Cell includes identifying research opportunities, securing funding for research projects, and facilitating the dissemination of research findings through publications and patents."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "iqac",
+            "patterns": [
+              "What is IQAC?",
+              "Tell me about IQAC.",
+              "Can you explain the role of IQAC?"
+            ],
+            "responses": [
+              "IQAC stands for Internal Quality Assurance Cell, which is a quality enhancement body within the university.",
+              "IQAC is a committee established to monitor and enhance the quality of academic and administrative activities in the institution.",
+              "The role of IQAC includes developing and implementing quality benchmarks, conducting periodic reviews, and promoting a culture of continuous improvement in all aspects of the institution."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "dmc",
+            "patterns": [
+              "What is DMC?",
+              "Tell me about DMC.",
+              "Can you explain the concept of DMC?"
+            ],
+            "responses": [
+              "DMC stands for Digital Monitoring Cell, which is responsible for overseeing digital monitoring activities within the university.",
+              "DMC is a specialized unit tasked with monitoring digital platforms, online activities, and technological infrastructure to ensure security and compliance.",
+              "The concept of DMC involves implementing monitoring systems, analyzing digital data, and addressing security threats to safeguard the university's digital assets and infrastructure."
+            ],
+            "context_set": ""
+          }
+        ]
+      }
