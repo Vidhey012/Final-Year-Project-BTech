@@ -5,8 +5,8 @@ This repository contains all the files and code related to my final year project
 ## Second Review
 [Link-2 🔗](http://tinyurl.com/team13review2)
 ## Final Review
-[Link-2 🔗](https://tinyurl.com/team13finalreview)
+[Link-3 🔗](https://tinyurl.com/team13finalreview)
 ## Output Video
-[Link-3 🔗](http://tinyurl.com/videopresentation13)
+[Link-4 🔗](http://tinyurl.com/videopresentation13)
 ## Documentation
-[Link-4 🔗](https://github.com/Vidhey012/Final-Year-Project-BTech/blob/150722dfdbf48650f2cbdf0908827eca75477762/files/Documentation.pdf)
+[Link-5 🔗](https://github.com/Vidhey012/Final-Year-Project-BTech/blob/150722dfdbf48650f2cbdf0908827eca75477762/files/Documentation.pdf)
