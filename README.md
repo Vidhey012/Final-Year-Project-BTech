@@ -5,7 +5,7 @@ This repository contains all the files and code related to my final year project
 ## Second Review
 [Link-2 🔗](http://tinyurl.com/team13review2)
 ## Final Review
-[Link-2 🔗](http://tinyurl.com/team13review3)
+[Link-2 🔗](https://tinyurl.com/team13finalreview)
 ## Output Video
 [Link-3 🔗](http://tinyurl.com/videopresentation13)
 ## Documentation
